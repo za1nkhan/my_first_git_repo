@@ -1,0 +1,113 @@
+{
+  "took" : 65,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 7,
+    "successful" : 7,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 13667378,
+    "max_score" : 1.0,
+    "hits" : [
+      {
+        "_index" : "news_collector-2018.05.29-000002",
+        "_type" : "news",
+        "_id" : "AV9tDV4Fxs0wjC27X0YZ",
+        "_score" : 1.0,
+        "_source" : {
+          "channel" : "entity_phrase",
+          "text" : "RT @denterd: Ongoing attacks of Spanish nationalists against #Catalonia's police & firefighters in #Barcelona. Wake up, Europe https://t.co…"
+        }
+      },
+      {
+        "_index" : "news_collector-2018.05.29-000002",
+        "_type" : "news",
+        "_id" : "AV9tDW8hALRXhDDxA35y",
+        "_score" : 1.0,
+        "_source" : {
+          "channel" : "news",
+          "text" : "NuPark and Denison Parking to Improve Patient Experience at St. Vincent Hospital https://t.co/gCWHsxoJgs https://t.co/wmHbI7eJZx"
+        }
+      },
+      {
+        "_index" : "news_collector-2018.05.29-000002",
+        "_type" : "news",
+        "_id" : "AV9tDYicxs0wjC27X0Yb",
+        "_score" : 1.0,
+        "_source" : { }
+      },
+      {
+        "_index" : "news_collector-2018.05.29-000002",
+        "_type" : "news",
+        "_id" : "AV9tDbC5xs0wjC27X0Yd",
+        "_score" : 1.0,
+        "_source" : {
+          "channel" : "news_keywords",
+          "text" : "Lawrie Painter at Scarborough Amusements. A portfolio of images, shot by Broth Tarn for @Burberry https://t.co/LRRuBN3p2e"
+        }
+      },
+      {
+        "_index" : "news_collector-2018.05.29-000002",
+        "_type" : "news",
+        "_id" : "AV9tDbUfALRXhDDxA4BK",
+        "_score" : 1.0,
+        "_source" : {
+          "channel" : "news_keywords",
+          "text" : "4 am on the way to the gym 4 car crash no one else on the highway how do they do it"
+        }
+      },
+      {
+        "_index" : "news_collector-2018.05.29-000002",
+        "_type" : "news",
+        "_id" : "AV9tDcOExs0wjC27X0Ye",
+        "_score" : 1.0,
+        "_source" : {
+          "channel" : "news_keywords_sim",
+          "text" : "Lawrie Painter at Scarborough Amusements. A portfolio of images, shot by Broth Tarn for @Burberry https://t.co/LRRuBN3p2e"
+        }
+      },
+      {
+        "_index" : "news_collector-2018.05.29-000002",
+        "_type" : "news",
+        "_id" : "AV9tDcRQALRXhDDxA4Bw",
+        "_score" : 1.0,
+        "_source" : {
+          "channel" : "news_keywords_sim",
+          "text" : "RT @WhiteHelmetsEXP: #Whitehelmets Oct 21- Massive NATO Weapons Cache Captured From ISIS By SAA After Battle For Deir Ezzor Reveals Germ… "
+        }
+      },
+      {
+        "_index" : "news_collector-2018.05.29-000002",
+        "_type" : "news",
+        "_id" : "AV9tDdLLxs0wjC27X0Yf",
+        "_score" : 1.0,
+        "_source" : {
+          "channel" : "entity_phrase",
+          "text" : "NuPark and Denison Parking to Improve Patient Experience at St. Vincent Hospital https://t.co/gCWHsxoJgs https://t.co/wmHbI7eJZx"
+        }
+      },
+      {
+        "_index" : "news_collector-2018.05.29-000002",
+        "_type" : "news",
+        "_id" : "AV9tDdORALRXhDDxA4Bx",
+        "_score" : 1.0,
+        "_source" : {
+          "channel" : "entity_phrase",
+          "text" : "Lawrie Painter at Scarborough Amusements. A portfolio of images, shot by Broth Tarn for @Burberry https://t.co/LRRuBN3p2e"
+        }
+      },
+      {
+        "_index" : "news_collector-2018.05.29-000002",
+        "_type" : "news",
+        "_id" : "AV9tDdRexs0wjC27X0Yg",
+        "_score" : 1.0,
+        "_source" : {
+          "channel" : "entity_phrase",
+          "text" : "RT @WhiteHelmetsEXP: #Whitehelmets Oct 21- Massive NATO Weapons Cache Captured From ISIS By SAA After Battle For Deir Ezzor Reveals Germ… "
+        }
+      }
+    ]
+  }
+}
