@@ -19,8 +19,9 @@ if content_type == 'application/json; charset=UTF-8':
     tojson = json.loads(r.text)
 
     #hits in hits to get get specific json response to get channel and text data
-    hits = tojson["hits"]["hits"]
+    hits = tojson["hits"]["hist"]
     #print (r.text)
+
 
 #creating csv file to input json response
     with open ('channel_text.csv', 'w', newline = '') as file:
